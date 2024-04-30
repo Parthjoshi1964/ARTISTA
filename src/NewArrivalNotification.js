@@ -12,12 +12,12 @@ import myImage5 from './shop/tower.jpg';
 function Newarrivalnotification() {
   const [selectedFile, setSelectedFile] = useState(null);
   const [images, setImages] = useState([
-    { src: myImage, alt: "Adam", artist: "Leonardo da Vinci", date: "1503 to 1519", where: "Louvre Museum (Paris)", time: new Date(), price: 25 },
-    { src: myImage1, alt: "Garden", artist: "Pablo Picasso", date: "1937", where: "Museo Reina Sofía (Madrid)", time: new Date(), price: 30 },
-    { src: myImage2, alt: "Jesus", artist: "Diego Velázquez", date: "1656", where: "Museo del Prado (Madrid)", time: new Date(), price: 20 },
-    { src: myImage3, alt: "Monalisa", artist: "Vincent van Gogh", date: "1889", where: "Museum of Modern Art (New York City)", time: new Date(), price: 15 },
-    { src: myImage4, alt: "Supper", artist: "Leonardo da Vinci", date: "1503 to 1519", where: "Louvre Museum (Paris)", time: new Date(), price: 25 },
-    { src: myImage5, alt: "Tower", artist: "Leonardo da Vinci", date: "1503 to 1519", where: "Louvre Museum (Paris)", time: new Date(), price: 25 },
+    { src: myImage, alt: "Adam", artist: "Leonardo da Vinci", date: "1503 to 1519", where: "Louvre Museum (Paris)", time: new Date(), price: 250 },
+    { src: myImage1, alt: "Garden", artist: "Pablo Picasso", date: "1937", where: "Museo Reina Sofía (Madrid)", time: new Date(), price: 3000 },
+    { src: myImage2, alt: "Jesus", artist: "Diego Velázquez", date: "1656", where: "Museo del Prado (Madrid)", time: new Date(), price: 2000 },
+    { src: myImage3, alt: "Monalisa", artist: "Vincent van Gogh", date: "1889", where: "Museum of Modern Art (New York City)", time: new Date(), price: 1500 },
+    { src: myImage4, alt: "Supper", artist: "Leonardo da Vinci", date: "1503 to 1519", where: "Louvre Museum (Paris)", time: new Date(), price: 2500 },
+    { src: myImage5, alt: "Tower", artist: "Leonardo da Vinci", date: "1503 to 1519", where: "Louvre Museum (Paris)", time: new Date(), price: 2000 },
   ]);
   const [deletedImages, setDeletedImages] = useState([]);
   const [cartItems, setCartItems] = useState([]);
